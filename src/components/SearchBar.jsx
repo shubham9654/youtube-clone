@@ -22,6 +22,7 @@ const SearchBar = ({ handleTermSubmit }) => {
             value={searchTerm}
             onChange={handleChange}
             className='!text-[17px]'
+            placeholder='Search here like songs, movies....'
           />
         </div>
       </form>
