@@ -9,7 +9,7 @@ const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   useEffect(() => {
-    handleTermSubmit('ben 10');
+    handleTermSubmit('songs');
   }, []);
 
   const handleTermSubmit = (term) => {
